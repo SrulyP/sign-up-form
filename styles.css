@@ -14,24 +14,35 @@ body{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 35%;
+    width: 60%;
 }
 
 .right {
     margin: 0;
     width: 100%;
+    font-family: "Montserrat";
 }
 
 .right .upper {
-    padding: 3rem;
+    padding: 8rem 3rem;
     width: 100%;
     background-color: antiquewhite;
 }
 
 .right p {
     max-width: 75ch;
+    font-weight: 500;
+}
+
+.right .call {
+    font-weight: 600;
+    padding-top: 1rem;
 }
 
 .right .lower {
     padding: 3rem;
+}
+
+button {
+    font-family: inherit;
 }
