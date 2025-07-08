@@ -149,6 +149,11 @@ input:user-invalid {
     background-color: rgb(231, 101, 62, 0.25);
 }
 
+footer {
+    justify-self: flex-end;
+    padding-right: 1rem;
+}
+
 @media screen and (max-width: 768px) {
     .right .upper p {
         max-width: 25ch;
