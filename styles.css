@@ -57,7 +57,6 @@ body{
     flex-wrap: wrap;
     flex-direction: column;
     gap: 1rem;
-
 }
 
 .form-columns {
@@ -73,8 +72,6 @@ body{
     gap: 0.4rem;
 }
 
-
-
 .form-row:nth-child(n+2) {
     padding-top: 1rem;
 }
@@ -85,8 +82,17 @@ body{
 
 button {
     font-family: inherit;
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 0.75rem 3rem;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 4px 10px -2px rgb(0, 0, 0, 0.6);
 }
 
+a {
+    cursor:pointer;
+}
 
 
 input {
