@@ -94,7 +94,6 @@ input {
     padding-left: 0.5rem;
     border: 1px solid rgb(66, 48, 8, 0.3);
     border-radius: 0.5rem;
-    background-color: var(--azure-web);
     font-family: inherit;
     font-weight: 500;
 }
@@ -103,7 +102,6 @@ input {
 
 input:focus {
     appearance: none;
-    border: 3px solid var(--azure-web);
     box-shadow: 0 4px 10px -2px rgb(0, 0, 0, 0.6);
 }
 
@@ -131,5 +129,27 @@ input:user-invalid {
 
     .right .upper p, .lets-sign-up {
         font-size: 1rem;
+    }
+
+    .right .upper {
+        padding: 2rem 3rem;
+    }
+
+    .left {
+        min-width: 30%;
+        height: 100%;
+    }
+
+    .form-columns {
+        flex-direction: column;
+    }
+
+    .form-row {
+        max-width: 250px;
+        min-width: 200px;
+        display: flex;
+        flex-direction: column;
+        gap: 0.4rem;
+        padding-top: 1rem;
     }
 }
